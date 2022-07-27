@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Home/OneDrive/Desktop/AndroidDev/FlashExpress/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24177631578947367" />
+        <entry key="..\:/Users/Home/OneDrive/Desktop/AndroidDev/FlashExpress/app/src/main/res/drawable/relative_layout_shape.xml" value="0.3310810810810811" />
+        <entry key="..\:/Users/Home/OneDrive/Desktop/AndroidDev/FlashExpress/app/src/main/res/layout/activity_contact_us.xml" value="0.3171171171171171" />
+        <entry key="..\:/Users/Home/OneDrive/Desktop/AndroidDev/FlashExpress/app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/Home/OneDrive/Desktop/AndroidDev/FlashExpress/app/src/main/res/layout/activity_faq.xml" value="0.3171171171171171" />
+        <entry key="..\:/Users/Home/OneDrive/Desktop/AndroidDev/FlashExpress/app/src/main/res/layout/activity_forget_password.xml" value="0.33" />
+        <entry key="..\:/Users/Home/OneDrive/Desktop/AndroidDev/FlashExpress/app/src/main/res/layout/activity_introductory_screen.xml" value="0.33" />
+        <entry key="..\:/Users/Home/OneDrive/Desktop/AndroidDev/FlashExpress/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/Home/OneDrive/Desktop/AndroidDev/FlashExpress/app/src/main/res/layout/activity_otpverify.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/Home/OneDrive/Desktop/AndroidDev/FlashExpress/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Home/OneDrive/Desktop/AndroidDev/FlashExpress/app/src/main/res/layout/activity_registration.xml" value="0.25" />
+        <entry key="..\:/Users/Home/OneDrive/Desktop/AndroidDev/FlashExpress/app/src/main/res/layout/activity_send_parcel.xml" value="0.25" />
+        <entry key="..\:/Users/Home/OneDrive/Desktop/AndroidDev/FlashExpress/app/src/main/res/layout/dropdown_item.xml" value="0.2828828828828829" />
+        <entry key="..\:/Users/Home/OneDrive/Desktop/AndroidDev/FlashExpress/app/src/main/res/layout/relative_layout_bg.xml" value="0.3171171171171171" />
+        <entry key="..\:/Users/Home/OneDrive/Desktop/AndroidDev/FlashExpress/app/src/main/res/layout/slider_item.xml" value="0.3171171171171171" />
+        <entry key="..\:/Users/Home/OneDrive/Desktop/AndroidDev/FlashExpress/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.13980263157894737" />
+        <entry key="..\:/Users/Home/OneDrive/Desktop/AndroidDev/FlashExpress/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.13980263157894737" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

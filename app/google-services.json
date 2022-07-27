@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "678094034235",
+    "project_id": "flash-express-816b2",
+    "storage_bucket": "flash-express-816b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678094034235:android:1ca309a11465e41466531e",
+        "android_client_info": {
+          "package_name": "com.example.flashexpress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678094034235-7ifmgnbb8s8ogqthamlccp25fbt9gg18.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEcZJ_oQunPthAfvrj8LPpUj0ZxLlK0hc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678094034235-7ifmgnbb8s8ogqthamlccp25fbt9gg18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

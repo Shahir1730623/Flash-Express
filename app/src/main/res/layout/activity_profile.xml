@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.Profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="#31E62E00"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/profile" />
+
+            <TextView
+                android:id="@+id/fullNameLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/profile_image"
+                android:fontFamily="@font/muli_black"
+                android:includeFontPadding="false"
+                android:text="Khondokar Shahir Saadat"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-10dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/muli_black"
+                android:includeFontPadding="false"
+                android:layout_marginStart="15dp"
+                android:text="Profile"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textAllCaps="true"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailEditTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:hint="Email"
+                app:boxBackgroundColor="@color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:gravity="bottom"
+                    android:text="rubayet_shahir@yahoo.com" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/nameEditTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:hint="Full Name"
+                app:boxBackgroundColor="@color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:gravity="bottom"
+                    android:text="Khondokar Shahir Saadat" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/phoneEditTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:hint="Phone Number"
+                app:boxBackgroundColor="@color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:gravity="bottom"
+                    android:text="01312236805" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+            <Button
+                android:id="@+id/updateBtn"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Update"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:onClick="updateDataOnClick"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.Dashboard"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:onClick="logout"
+            android:src="@drawable/logout"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/muli_black"
+            android:text="Flash Courier"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:layout_marginBottom="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="6dp">
+
+            <com.smarteist.autoimageslider.SliderView
+                android:id="@+id/imageSlider"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:sliderAnimationDuration="600"
+                app:sliderAutoCycleDirection="back_and_forth"
+                app:sliderAutoCycleEnabled="true"
+                app:sliderIndicatorAnimationDuration="600"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorMargin="15dp"
+                app:sliderIndicatorOrientation="horizontal"
+                app:sliderIndicatorPadding="3dp"
+                app:sliderIndicatorRadius="2dp"
+                app:sliderIndicatorSelectedColor="#5A5A5A"
+                app:sliderIndicatorUnselectedColor="#FFF"
+                app:sliderScrollTimeInSec="5"
+                app:sliderStartAutoCycle="true" />
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3CE62E00"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/relative_layout_shape"
+                android:paddingVertical="15dp"
+                android:onClick="sendParcelIcon">
+
+                <ImageView
+                    android:id="@+id/logo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/boxes" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/logo1"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/muli"
+                    android:text="Send Parcel"
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/relative_layout_shape"
+                android:paddingVertical="15dp"
+                android:onClick="contactusIcon">
+
+                <ImageView
+                    android:id="@+id/logo2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/contact_book" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/logo2"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/muli"
+                    android:text="Contact us"
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="70dp"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/relative_layout_shape"
+                android:paddingVertical="15dp"
+                android:onClick="profileIcon">
+
+                <ImageView
+                    android:id="@+id/logo3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/user" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/logo3"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/muli"
+                    android:text="Profile"
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/relative_layout_shape"
+                android:paddingVertical="15dp"
+                android:onClick="FAQIcon">
+
+                <ImageView
+                    android:id="@+id/logo4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/information" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/logo4"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/muli"
+                    android:text="FAQ"
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

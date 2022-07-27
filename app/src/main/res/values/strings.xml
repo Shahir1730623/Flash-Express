@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Flash Express</string>
+
+    <!-- FAQ -->
+    <string name="FAQ_1">How to place shipping request</string>
+    <string name="FAQ_1_details">1. Click the "Send Parcel" option from homepage.\n\n2. Fill up the following form of the page\n\n3. Click the "Send Pickup Request" option to confirm the request.\n</string>
+
+    <string name="FAQ_2">Shipping Charge Estimation</string>
+    <string name="FAQ_2_details">The standard shipping charge in Dhaka is 80tk and outside the city is 150tk.
+        The shipping charge up to 5kg will cost extra but after 5kg, per kg cost 8tk for standard and 15tk for express respectively</string>
+
+    <string name="FAQ_3">Does it cost anything to use Flash Express app?</string>
+    <string name="FAQ_3_details">No, you can download and use the app for free</string>
+
+    <string name="FAQ_4">Can I avail the service without internet?</string>
+    <string name="FAQ_4_details">Yes, you can place parcel shipping request by calling us at out 09610056879.</string>
+
+    <string name="FAQ_5">Do you have any Emergency/ Helpline contact number?</string>
+    <string name="FAQ_5_details">The Helpline and contact numbers are in our Contact Us Page. You may even reach us via email.</string>
+
+</resources>
